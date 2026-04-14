@@ -1,71 +1,94 @@
+/* Styles Généraux */
 body, div {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
+
 body {
-	background-color: aquamarine;
-	font-family: Arial, sans-serif;
-	font-size: 16px;
+    background-color: aquamarine;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
 }
-th { width: 300px;}
-ul { list-style-type: square; }
+
+th {
+    width: 300px;
+}
+
+ul {
+    list-style-type: square;
+}
+
+/* En-tête et Menu */
 #entete-de-page {
-	padding: 5px;
-	height: 100px;
-	background-color: #6c80ad;
-	font-size: 32px;
-	font-weight: bold;
-	font-variant: small-caps;
-	text-align: center;
+    padding: 5px;
+    height: 100px;
+    background-color: #6c80ad;
+    font-size: 32px;
+    font-weight: bold;
+    font-variant: small-caps;
+    text-align: center;
 }
+
 #bloc-menu {
-	display: table;
-	margin-left: auto;
-	margin-right: auto;
-	height: 36px;
-	background-color: steelblue;
-	color: white;
-	border: 1px solid black;
-	border-collapse: collapse;
-	width: 80%;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    height: 36px;
+    background-color: steelblue;
+    color: white;
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 80%;
 }
+
+/* Contenu Principal */
 #contenu {
-	padding: 10px;
-	background-color: beige;
+    padding: 10px;
+    background-color: beige;
 }
+
 #infos {
-	color: darkblue;
-	font-style: italic;
+    color: darkblue;
+    font-style: italic;
 }
-#pied-de-page {
-	padding: 5px;
-	background-color: lightgrey;
-	font-size: 11px;
-}
+
+/* Images */
 #imagedulycee {
     width: 220px;
     border: 2px solid #6c80ad;
-    border-radius: 8px; /* arrondi */
+    border-radius: 8px; /* coins arrondis */
 }
+
 #image-onisep {
     display: block;
-	width: 400px;
-    max-width: 100%;  
-    height: auto;     /* garde proportions */
+    width: 400px;
+    max-width: 100%;
+    height: auto; /* garde les proportions */
     margin: 10px 0;
 }
+
+/* Tableau CV */
 #cv {
     width: 100%;
     border-collapse: collapse; /* bordures fusionnées */
     margin-top: 20px;
-    background-color: white;   
+    background-color: white;
 }
+
 #cv th, #cv td {
-    border: 1px solid black;   
+    border: 1px solid black;
     padding: 10px;
     text-align: left;
 }
+
 #cv th {
-    background-color: #6c80ad; 
+    background-color: #6c80ad;
     color: white;
-}	
+}
+
+/* Pied de page */
+#pied-de-page {
+    padding: 5px;
+    background-color: lightgrey;
+    font-size: 11px;
+}
