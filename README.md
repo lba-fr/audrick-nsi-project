@@ -20,7 +20,7 @@ Le site est structuré autour de trois pages principales :
 
 ## 📋 Fonctionnalités et Cahier des charges
 * **Navigation** : Barre de menu identique sur toutes les pages pour une navigation fluide.
-* **Médias** : Utilisation d'images locales (`lycee.jfif`) et d'images distantes via URL (Onisep).
+* **Médias** : Utilisation d'images locales (`lycee.jpeg`) et d'images distantes via URL (Onisep).
 * **Structure CV** : Tableau organisé avec une ligne par année scolaire.
 * **Ancres** : Liens internes permettant d'accéder directement aux sections "Scolarité" ou "Stages".
 * **Standardisation** : Séparation complète du fond et de la forme, sans attributs de style dans le code HTML.
