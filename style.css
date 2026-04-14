@@ -92,3 +92,11 @@ ul {
     background-color: lightgrey;
     font-size: 11px;
 }
+
+/* Style pour les logos de validation ou badges */
+.badge-validation {
+    border: 0;
+    width: 88px;
+    height: 31px;
+    vertical-align: middle; /* Aligne joliment le badge avec le texte */
+}
