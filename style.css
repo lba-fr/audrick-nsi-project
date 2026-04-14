@@ -98,17 +98,25 @@ ul {
 
 /* Pied de page */
 #pied-de-page {
-    padding: 5px;
+    padding: 15px; /* Un peu plus d'espace */
     background-color: lightgrey;
     font-size: 11px;
-    text-align: center; /* Pour centrer le badge et le texte */
+    text-align: center; /* Centre le texte */
 }
 
-/* Style pour les logos de validation ou badges */
-#badge-validation {
+/* Container pour aligner les badges ensemble */
+#pied-de-page .badges {
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Aligne verticalement */
+    gap: 15px; /* Espace entre les deux badges */
+    margin-top: 15px;
+}
+
+/* Style commun pour les badges (dimensions modernes) */
+#badge-html, #badge-css {
     border: 0;
-    width: 88px;
-    height: 31px;
+    height: 31px; /* Hauteur fixe pour l'alignement */
+    width: auto; /* Largeur automatique pour garder les proportions */
     vertical-align: middle;
-    margin-top: 10px;
 }
