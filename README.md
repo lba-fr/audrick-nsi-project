@@ -5,7 +5,7 @@
 Ce projet a été réalisé dans le cadre du cours de **NSI (Numérique et Sciences de l'Informatique)** de Première. Il s'agit d'un site web statique présentant mon parcours, mon CV et mes projets d'orientation.
 
 ## 🚀 Accès direct
-Vous pouvez consulter le site en ligne ici : [**Lien vers mon site NSI**](https://[ton-pseudo].github.io/[nom-de-ton-depot]/)
+Vous pouvez consulter le site en ligne ici : [**Lien vers mon site NSI**](https://lba-fr.github.io/audrick-nsi-project/)
 
 ## 📂 Aperçu du projet
 Le site est structuré autour de trois pages principales :
