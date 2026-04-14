@@ -41,6 +41,16 @@ ul {
     width: 80%;
 }
 
+/* Style pour les liens du menu */
+#bloc-menu a {
+    color: white;
+    text-decoration: none;
+}
+
+#bloc-menu a:hover {
+    text-decoration: underline;
+}
+
 /* Contenu Principal */
 #contenu {
     padding: 10px;
@@ -91,12 +101,14 @@ ul {
     padding: 5px;
     background-color: lightgrey;
     font-size: 11px;
+    text-align: center; /* Pour centrer le badge et le texte */
 }
 
 /* Style pour les logos de validation ou badges */
-.badge-validation {
+#badge-validation {
     border: 0;
     width: 88px;
     height: 31px;
-    vertical-align: middle; /* Aligne joliment le badge avec le texte */
+    vertical-align: middle;
+    margin-top: 10px;
 }
